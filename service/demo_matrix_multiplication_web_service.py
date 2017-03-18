@@ -46,7 +46,7 @@ def drop_matrix_database():
                    .format(e)}), 500
 
 
-@app.route('/drop_martix_tables', methods=['DELETE'])
+@app.route('/drop_matrix_tables', methods=['DELETE'])
 def drop_martix_tables():
   try:
     from demo_matrix_multiplication.database_tear_down \
